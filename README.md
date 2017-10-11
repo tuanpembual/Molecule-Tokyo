@@ -1,9 +1,7 @@
 ## Molecule
-============
 Using Molecule to create and testing ansible role
 
 ## Dependency
-============
 * virtualbox
 * vagrant
 * python pip
@@ -11,7 +9,6 @@ Using Molecule to create and testing ansible role
 * serverspec (verifier)
 
 ## Install molecule-dep
-============
 ```
 $ zypper in gcc python-pip python-vagrant libssl-dev libffi-dev
 ```
@@ -50,6 +47,5 @@ We using openSUSE Leap, so please edit platform section in molecule.yml
 `ansible-playbook trunx/playbook.yml -i trunx/environment/staging --user ubuntu`
 
 ## Documentations
-============
 * https://github.com/metacloud/molecule
 * https://molecule.readthedocs.io

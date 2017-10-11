@@ -1,0 +1,14 @@
+---
+# tasks file for nginxDocker
+- name: Check Environment
+  debug: msg="reading from {{ env_name }}"
+
+- name: install packages
+  zypper: name={{ item }} update_cache=yes force=yes
+  with_items:
+    - nginx
+    - curl
+    - net-tools
+  become: yes
+  notify:
+    - restart nginx
