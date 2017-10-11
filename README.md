@@ -19,18 +19,22 @@ $ pip install docker-py
 $ pip install molecule```
 
 ## How to use
+
 `molecule --help` | to show others command  
 `molecule init --role trunx --verifier serverspec` | create new rule from scratch using serverspec for verifier  
 `bundle install`
 
 ## Addition setup
 We using Development for testing molecule.
+
 ```ansible:
   group_vars:
     development:
       env_name: Development
 ```
+
 We using openSUSE Leap, so please edit platform section in molecule.yml  
+
 ```platforms:
     - name: opensuse/openSUSE-42.3-x86_64
       box: opensuse/openSUSE-42.3-x86_64
