@@ -1,0 +1,5 @@
+[all]
+nginx ansible_host=127.0.0.1 ansible_port=2222 ansible_ssh_private_key_file="/home/nona/vagrant/trunks/openSUSEAsia17/nginx/.vagrant/machines/nginx/virtualbox/private_key" ansible_user=vagrant
+
+[development]
+nginx

@@ -1,0 +1,7 @@
+Judul dan Nama
+Molecule adalah, install by pip, install vagrant, docker,
+Base by ansible galaxy with some addition folder
+just create role | add unit tesing
+Run Test | video
+implement on prod | testing via jenkins
+Question | isi blog
