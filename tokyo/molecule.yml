@@ -17,9 +17,9 @@ vagrant:
       type: virtualbox
       options:
         memory: 1024
-        cpus: 2
+        cpus: 1
   instances:
-    - name: nginx
+    - name: tokyo
       ansible_groups:
         - development
 verifier:

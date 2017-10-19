@@ -14,9 +14,10 @@ $ zypper in gcc python-pip python-vagrant libssl-dev libffi-dev
 ```
 
 ## Install Molecule using pip:
-```$ pip install ansible
+```$ pip install ansible==2.3.2
 $ pip install docker-py
-$ pip install molecule```
+$ pip install molecule==1.2.4
+$ pip install molecule==2.3.1```
 
 ## How to use
 
